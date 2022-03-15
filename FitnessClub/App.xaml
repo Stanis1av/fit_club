@@ -1,0 +1,15 @@
+﻿<Application x:Class="FitnessClub.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FitnessClub"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="TopCollor" Color="#1FCECB"/>
+        <SolidColorBrush x:Key="DownCollor" Color="#A7FC00"/>
+        <SolidColorBrush x:Key="MidCollor" Color="#C7FCEC"/>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans MS"/>
+        </Style>
+        <BitmapImage x:Key="Picture" UriSource="/Resources/Picture.png"/>
+    </Application.Resources>
+</Application>
